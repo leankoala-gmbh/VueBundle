@@ -1,0 +1,28 @@
+{
+  "name": "leankoala/vuebundle",
+  "description": "Vue.js meets Symfony",
+  "authors": [
+    {
+      "name": "Nils Langner",
+      "email": "nils.langner@leankoala.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "phmlabs/init": "dev-master",
+    "guzzlehttp/guzzle": "^6.3",
+    "uptime/uptime": "0.2.0",
+    "symfony/console": "~3.1",
+    "symfony/yaml": "~3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leankoala\\Vueable\\": "src/"
+    }
+  },
+  "suggest": {
+    "ext-mysqli": "Needed if database checks are used",
+    "ext-json": "Used for most output formats"
+  },
+  "license": "MIT"
+}
